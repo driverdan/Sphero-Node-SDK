@@ -1,0 +1,24 @@
+{
+  "name": "Sphero-Node-SDK",
+  "description": "SDK for working with Sphero robots",
+  "version": "0.1",
+  "author": {
+    "name": "Dan DeFelippi",
+    "url": "http://driverdan.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/driverdan/Sphero-Node-SDK.git"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib/sphero.js",
+  "engines": {
+    "node": "~0.6.2"
+  },
+  "dependencies": {
+    "serialport": "0.6.3"
+  },
+  "devDependencies": {}
+}
