@@ -21,4 +21,14 @@ sphero.ping(function() {
 })
 .getBluetoothInfo(function(name, id) {
   console.log("getBluetoothInfo", name, id);
+})
+.setAutoReconnect(true, 5, function() {
+  console.log("setAutoReconnect true 5 seconds");
+})
+.getAutoReconnect(function(data) {
+  console.log("getAutoReconnect", data);
+})
+// disable auto reconnect
+.setAutoReconnect(false, function() {
+  console.log("disabled setAutoReconnect");
 });
