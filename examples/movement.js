@@ -6,6 +6,8 @@ var sphero = new Sphero();
 sphero.ping(function() {
   console.log("ping");
 })
-.roll(255, 0, 500, function() {
-  sphero.roll(255, 90, 500);
+.roll(255, 0, function() {
+  setTimeout(function() {
+    sphero.roll(255, 90, 500);
+  }, 500);
 });
