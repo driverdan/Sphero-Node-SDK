@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/driverdan/Sphero-Node-SDK.png)](http://travis-ci.org/driverdan/Sphero-Node-SDK)
 Sphero SDK for NodeJS
 =====================
 
