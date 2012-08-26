@@ -18,7 +18,8 @@
     "node": "~0.6.2"
   },
   "dependencies": {
-    "serialport": "0.6.3"
+    "serialport": "0.6.3",
+    "glob": "3.1.x"
   },
   "devDependencies": {}
 }
