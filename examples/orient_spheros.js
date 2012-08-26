@@ -25,7 +25,7 @@ var orient = function(path) {
     console.log(deviceName + ': stabilization turned off');
   })
   // Turn on back led
-  .setBlackLED(255, function() {
+  .setBackLED(255, function() {
     console.log(deviceName + ': back LED on');
   })
   .setColor(0, 255, 0, function() {
